@@ -12,3 +12,4 @@ describe('the what triangle do you have path', {:type => :feature}) do
     click_button('Check')
     expect(page).to have_content('scalene')
   end
+end
